@@ -9,3 +9,10 @@ pip install Flask
 ```
 https://www.geeksforgeeks.org/flask-creating-first-simple-application/
 ```
+
+How to run
+```
+python <filename>.py
+```
+### By default Flask runs on port 5000
+

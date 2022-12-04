@@ -16,3 +16,12 @@ python <filename>.py
 ```
 ### By default Flask runs on port 5000
 
+# How to run docker-compose.yml with default file name
+```
+docker compose up -d
+```
+# How to run using custom file
+```
+docker compose -f <filename> up -d
+```
+

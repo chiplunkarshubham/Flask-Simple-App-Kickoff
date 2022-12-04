@@ -1,0 +1,13 @@
+version: '3'
+services:
+  flask_service:
+    build: .
+    image: flask_app_image
+    container_name: flask_application
+    ports:
+      - "5025:5000"
+      - "5026:5000"
+    networks:
+      - flask_network
+networks:
+  - flask_network:
